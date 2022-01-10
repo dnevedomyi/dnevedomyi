@@ -2,4 +2,4 @@
 - 👀 I’m interested in software testing
 - 🌱 I’m now studying to be a Software Tester on the course of Vadim Ksendzov
 - 💞️ I’m looking to collaborate with colleagues in the software testing field
-- 📫 How to reach me: d.nevedomyi@mail.ru
+- 📫 How to reach me: d.nevedomyi@bk.ru
