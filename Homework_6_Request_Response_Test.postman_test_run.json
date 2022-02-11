@@ -1,0 +1,377 @@
+{
+	"id": "462e085b-c005-4b28-af91-61e321a155d2",
+	"name": "Homework №6_Request_Response_Test",
+	"timestamp": "2022-02-10T18:13:35.500Z",
+	"collection_id": "18799319-f091290e-e4d2-48ca-98bb-55450c51662d",
+	"folder_id": 0,
+	"environment_id": "69e4ddbe-82e3-418b-a928-3715e0dcc622",
+	"totalPass": 39,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ec07c3c1-7a8c-4a9e-9e30-2a27818cb5a8",
+			"name": "Задание № 1",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Проверить, что в body приходит правильный string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверить, что в body приходит правильный string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Проверить, что в body приходит правильный string": true
+				}
+			]
+		},
+		{
+			"id": "3d5005a6-e4fb-4a22-9f74-db1e40d31b13",
+			"name": "Задание №2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name": true,
+				"Check age": true,
+				"Check salary": true,
+				"Name в ответе равно name s request": true,
+				"Age в ответе равно age s request": true,
+				"Salary в ответе равно salary s request": true,
+				"u_salary_1_5_year в ответе равно salary*4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name в ответе равно name s request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Age в ответе равно age s request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary в ответе равно salary s request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"u_salary_1_5_year в ответе равно salary*4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name": true,
+					"Check age": true,
+					"Check salary": true,
+					"Name в ответе равно name s request": true,
+					"Age в ответе равно age s request": true,
+					"Salary в ответе равно salary s request": true,
+					"u_salary_1_5_year в ответе равно salary*4": true
+				}
+			]
+		},
+		{
+			"id": "e993c1e7-3430-4584-84df-fe2bff2957a5",
+			"name": "Задание №3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Dmitriy&age=35&salary=2500",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Name в ответе равно name s request": true,
+				"Age в ответе равно age s request": true,
+				"Salary в ответе равно salary s request": true,
+				"Проверить, что у параметра dog есть параметры name": true,
+				"Проверить, что у параметра dog есть параметры age": true,
+				"Проверить, что параметр name имеет значение Luky.": true,
+				"Проверить, что параметр age имеет значение 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name в ответе равно name s request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Age в ответе равно age s request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary в ответе равно salary s request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверить, что у параметра dog есть параметры name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверить, что у параметра dog есть параметры age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверить, что параметр name имеет значение Luky.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверить, что параметр age имеет значение 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Name в ответе равно name s request": true,
+					"Age в ответе равно age s request": true,
+					"Salary в ответе равно salary s request": true,
+					"Проверить, что у параметра dog есть параметры name": true,
+					"Проверить, что у параметра dog есть параметры age": true,
+					"Проверить, что параметр name имеет значение Luky.": true,
+					"Проверить, что параметр age имеет значение 4": true
+				}
+			]
+		},
+		{
+			"id": "a0ae8055-eeee-4a0f-af1f-2eca69a4511e",
+			"name": "Задание №4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Dima&age=35&salary=3200",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Request name": true,
+				"Request age": true,
+				"0-й элемент параметра salary равен salary из request": true,
+				"1-й элемент параметра salary равен salary*2 из request": true,
+				"2-й элемент параметра salary равен salary*3 из request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Request name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Request age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"0-й элемент параметра salary равен salary из request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"1-й элемент параметра salary равен salary*2 из request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"2-й элемент параметра salary равен salary*3 из request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Request name": true,
+					"Request age": true,
+					"0-й элемент параметра salary равен salary из request": true,
+					"1-й элемент параметра salary равен salary*2 из request": true,
+					"2-й элемент параметра salary равен salary*3 из request": true
+				}
+			]
+		},
+		{
+			"id": "4e393825-2c7c-48af-9c5c-7c885cd3471e",
+			"name": "Задание №5",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"json response имеет параметр start_qa_salary": true,
+				"json response имеет параметр qa_salary_after_6_months": true,
+				"json response имеет параметр qa_salary_after_12_months": true,
+				"json response имеет параметр qa_salary_after_1.5_year": true,
+				"json response имеет параметр qa_salary_after_3.5_years": true,
+				"json response имеет параметр person": true,
+				"start_qa_salary равен salary": true,
+				"qa_salary_after_6_months равен salary*2": true,
+				"qa_salary_after_12_months равен salary*2.7": true,
+				"qa_salary_after_1.5_year равен salary*3.3": true,
+				"qa_salary_after_3.5_years равен salary*3.8": true,
+				"В параметре person, 1-й элемент из u_name равен salary из request": true,
+				"Параметр u_age равен age из request": true,
+				"u_salary_5_years равен salary*4.2": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"json response имеет параметр start_qa_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"json response имеет параметр qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"json response имеет параметр qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"json response имеет параметр qa_salary_after_1.5_year": {
+					"pass": 1,
+					"fail": 0
+				},
+				"json response имеет параметр qa_salary_after_3.5_years": {
+					"pass": 1,
+					"fail": 0
+				},
+				"json response имеет параметр person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"start_qa_salary равен salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_6_months равен salary*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_12_months равен salary*2.7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_1.5_year равен salary*3.3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_3.5_years равен salary*3.8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"В параметре person, 1-й элемент из u_name равен salary из request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Параметр u_age равен age из request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"u_salary_5_years равен salary*4.2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"json response имеет параметр start_qa_salary": true,
+					"json response имеет параметр qa_salary_after_6_months": true,
+					"json response имеет параметр qa_salary_after_12_months": true,
+					"json response имеет параметр qa_salary_after_1.5_year": true,
+					"json response имеет параметр qa_salary_after_3.5_years": true,
+					"json response имеет параметр person": true,
+					"start_qa_salary равен salary": true,
+					"qa_salary_after_6_months равен salary*2": true,
+					"qa_salary_after_12_months равен salary*2.7": true,
+					"qa_salary_after_1.5_year равен salary*3.3": true,
+					"qa_salary_after_3.5_years равен salary*3.8": true,
+					"В параметре person, 1-й элемент из u_name равен salary из request": true,
+					"Параметр u_age равен age из request": true,
+					"u_salary_5_years равен salary*4.2": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 632,
+	"collection": {
+		"requests": [
+			{
+				"id": "ec07c3c1-7a8c-4a9e-9e30-2a27818cb5a8",
+				"method": "GET"
+			},
+			{
+				"id": "3d5005a6-e4fb-4a22-9f74-db1e40d31b13",
+				"method": "POST"
+			},
+			{
+				"id": "e993c1e7-3430-4584-84df-fe2bff2957a5",
+				"method": "GET"
+			},
+			{
+				"id": "a0ae8055-eeee-4a0f-af1f-2eca69a4511e",
+				"method": "GET"
+			},
+			{
+				"id": "4e393825-2c7c-48af-9c5c-7c885cd3471e",
+				"method": "POST"
+			}
+		]
+	}
+}
