@@ -1,0 +1,317 @@
+{
+	"id": "991598c6-4126-43e1-bbb3-568299e107e7",
+	"name": "Homework№7",
+	"timestamp": "2022-02-11T17:09:39.224Z",
+	"collection_id": "18799319-dfb2fe6e-10ed-403a-b2ff-b2d324ec15f3",
+	"folder_id": 0,
+	"environment_id": "64920b79-abc0-40d0-a5bb-7afe8b54db23",
+	"totalPass": 18,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5cc14301-77c0-4c79-8702-ce808b76b904",
+			"name": "Задание № 1",
+			"url": "http://162.55.220.72:5005/login%0A",
+			"time": 117,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				117
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "79b5ef2c-2ddb-4a43-bf36-71e4600b1d40",
+			"name": "Задание № 2",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 117,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Request Salary = start_qa_salary*1": true,
+				"Response Salary = qa_salary_after_6_months*2": true,
+				"Response Salary = qa_salary_after_12_months*2.9": true,
+				"Response Salary = u_salary_1_5_year*4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Request Salary = start_qa_salary*1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Salary = qa_salary_after_6_months*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Salary = qa_salary_after_12_months*2.9": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Salary = u_salary_1_5_year*4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				117
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Request Salary = start_qa_salary*1": true,
+					"Response Salary = qa_salary_after_6_months*2": true,
+					"Response Salary = qa_salary_after_12_months*2.9": true,
+					"Response Salary = u_salary_1_5_year*4": true
+				}
+			]
+		},
+		{
+			"id": "761245f8-560a-4055-8b83-961594c43094",
+			"name": "Задание 2(4)",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				120
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fdfa2a29-c25c-47c6-a127-30aebdc157de",
+			"name": "Задание № 3",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Коэффициент *1": true,
+				"Коэффициент*2": true,
+				"Коэффициент*3": true,
+				"2-й элемент массива salary > 1-го": true,
+				"2-й элемент массива salary > 0-го": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Коэффициент *1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Коэффициент*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Коэффициент*3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"2-й элемент массива salary > 1-го": {
+					"pass": 1,
+					"fail": 0
+				},
+				"2-й элемент массива salary > 0-го": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				115
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Коэффициент *1": true,
+					"Коэффициент*2": true,
+					"Коэффициент*3": true,
+					"2-й элемент массива salary > 1-го": true,
+					"2-й элемент массива salary > 0-го": true
+				}
+			]
+		},
+		{
+			"id": "f66195e7-1b8e-41e2-8ad5-4a952743f851",
+			"name": "Задание № 4",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"daily_food':weight * 0.012": true,
+				"daily_sleep': weight * 2.5": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"daily_food':weight * 0.012": {
+					"pass": 1,
+					"fail": 0
+				},
+				"daily_sleep': weight * 2.5": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"daily_food':weight * 0.012": true,
+					"daily_sleep': weight * 2.5": true
+				}
+			]
+		},
+		{
+			"id": "f18a0293-b105-4c1c-9aaf-1a80d79de53b",
+			"name": "Задание № 5",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"занчение поля name = значению переменной name из окружения": true,
+				"занчение поля age в ответе соответсвует отправленному в запросе значению поля age": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"занчение поля name = значению переменной name из окружения": {
+					"pass": 1,
+					"fail": 0
+				},
+				"занчение поля age в ответе соответсвует отправленному в запросе значению поля age": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"занчение поля name = значению переменной name из окружения": true,
+					"занчение поля age в ответе соответсвует отправленному в запросе значению поля age": true
+				}
+			]
+		},
+		{
+			"id": "89e31c70-4043-4d3f-948f-2fc2a7e3d342",
+			"name": "Задание № 6",
+			"url": "http://162.55.220.72:5005/currency",
+			"time": 747,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				747
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bd471396-fccb-4a95-b90d-15db5c0034e4",
+			"name": "Задание № 7",
+			"url": "http://162.55.220.72:5005/curr_byn",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				304
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1774,
+	"collection": {
+		"requests": [
+			{
+				"id": "5cc14301-77c0-4c79-8702-ce808b76b904",
+				"method": "POST"
+			},
+			{
+				"id": "79b5ef2c-2ddb-4a43-bf36-71e4600b1d40",
+				"method": "POST"
+			},
+			{
+				"id": "761245f8-560a-4055-8b83-961594c43094",
+				"method": "POST"
+			},
+			{
+				"id": "fdfa2a29-c25c-47c6-a127-30aebdc157de",
+				"method": "POST"
+			},
+			{
+				"id": "f66195e7-1b8e-41e2-8ad5-4a952743f851",
+				"method": "POST"
+			},
+			{
+				"id": "f18a0293-b105-4c1c-9aaf-1a80d79de53b",
+				"method": "POST"
+			},
+			{
+				"id": "89e31c70-4043-4d3f-948f-2fc2a7e3d342",
+				"method": "POST"
+			},
+			{
+				"id": "bd471396-fccb-4a95-b90d-15db5c0034e4",
+				"method": "POST"
+			}
+		]
+	}
+}
